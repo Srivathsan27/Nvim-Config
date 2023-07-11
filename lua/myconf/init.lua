@@ -1,5 +1,6 @@
-require("myconf.remap")
 require("myconf.packer")
+require("myconf.set")
+require("myconf.remap")
 require("nightfox").setup({
 	options = {
 		transparent = true,
@@ -8,9 +9,7 @@ require("nightfox").setup({
 			comments = "italic",
 			keywords = "bold",
 			types = "italic",
-		}, 
+		},
 	},
-	
 })
-
 vim.cmd("colorscheme nightfox")
